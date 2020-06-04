@@ -1,6 +1,6 @@
 import { store } from "./Store";
 import { handleSubscribtion } from "./Store";
-const OT = require("@opentok/client");
+import OT from "@opentok/client";
 
 function handleError(error) {
   if (error) {
